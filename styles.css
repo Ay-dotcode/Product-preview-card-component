@@ -23,7 +23,14 @@ main {
     border-radius: 16px;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 #img {
+    content: url("images/image-product-mobile.jpg");
     width: 100%;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;

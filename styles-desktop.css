@@ -1,0 +1,46 @@
+@media (min-width: 48em) {
+    main {
+        flex-direction: row;
+        width: 800px;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    #img {
+        content: url("images/image-product-desktop.jpg");
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+        border-top-right-radius: 0px;
+        width: 400px;
+    }
+
+    #product {
+        font-size: 1.3em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    #description {
+        font-size: 1.6em;
+    }
+
+    #mainPrice {
+        font-size: 3.7em;
+    }
+
+    #formerPrice {
+        font-size: 1.5em;
+    }
+
+    #addCart {
+        font-size: 1.5em;
+    }
+
+    #addCart img {
+        width: 18px;
+    }
+}
