@@ -30,7 +30,7 @@ main {
 }
 
 #product {
-    padding: 24px;
+    margin: 24px;
     text-transform: uppercase;
     letter-spacing: 0.4em;
     color: hsl(228, 12%, 48%);
@@ -38,12 +38,12 @@ main {
 }
 
 h1 {
-    padding: 0 24px;
+    margin: 0 24px;
     font-family: Fraunces;
 }
 
 #description {
-    padding: 24px;
+    margin: 24px;
     color: hsl(228, 12%, 44%);
     font-size: 1em;
 }
@@ -59,10 +59,30 @@ h1 {
     color: hsl(158, 36%, 37%);
     font-size: 2.5em;
     font-weight: 700;
-    padding: 0 24px;
+    margin: 0 24px;
 }
 
 #formerPrice {
     color: hsl(228, 12%, 44%);
     text-decoration: line-through;
+}
+
+#addCart {
+    margin: 24px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 20px 8px;
+    border-radius: 16px;
+    border: none;
+    font-size: 1em;
+    font-weight: 500;
+    width: 332px;
+}
+
+#addCart img {
+    margin-right: 8px;
+}
+
+#addCart:hover {
+    background-color: hsl(158, 36%, 22%);
 }
