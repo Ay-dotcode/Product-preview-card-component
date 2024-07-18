@@ -47,3 +47,22 @@ h1 {
     color: hsl(228, 12%, 44%);
     font-size: 1em;
 }
+
+#prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Fraunces;
+}
+
+#mainPrice {
+    color: hsl(158, 36%, 37%);
+    font-size: 2.5em;
+    font-weight: 700;
+    padding: 0 24px;
+}
+
+#formerPrice {
+    color: hsl(228, 12%, 44%);
+    text-decoration: line-through;
+}
