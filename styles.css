@@ -17,7 +17,7 @@ main {
     flex-direction: column;
     justify-content: center;
     height: fit-content;
-    width: 350px;
+    width: 380px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 40px;
     border-radius: 16px;
@@ -34,9 +34,16 @@ main {
     text-transform: uppercase;
     letter-spacing: 0.4em;
     color: hsl(228, 12%, 48%);
+    font-size: 1em;
 }
 
 h1 {
     padding: 0 24px;
     font-family: Fraunces;
+}
+
+#description {
+    padding: 24px;
+    color: hsl(228, 12%, 44%);
+    font-size: 1em;
 }
